@@ -5,12 +5,11 @@ xxx
 ### Menu
 
 - [Task Description](#task-description)
-- Data Description
-- Data Format
-- How to Participate
-- Important Dates
-- Organizers
-- Contacts
+- [Data Description](#data-description)
+- [How to Participate](#how-to-participate)
+- [Important Dates](#important-dates)
+- [Organizers](#organizers)
+- [Contacts](#contacts)
 
 
 ### Task Description
