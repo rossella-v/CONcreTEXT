@@ -4,7 +4,7 @@ xxx
 
 ### Menu
 
-- [Task Description](#td)
+- [Task Description](#task-description)
 - Data Description
 - Data Format
 - How to Participate
@@ -14,7 +14,6 @@ xxx
 
 
 ### Task Description
-#td
 
 xxx
 
