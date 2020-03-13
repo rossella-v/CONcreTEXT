@@ -1,6 +1,6 @@
 ## News
 
-xxx
+**16/03/2020**  We are now online!
 
 ## Menu
 
