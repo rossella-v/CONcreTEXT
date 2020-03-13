@@ -34,10 +34,10 @@ xxx
 
 ## Organizers
 
+- Daniele Radicioni, Università di Torino, daniele.radicioni@unito.it
+- Andrea Amelio Ravelli, Università di Firenze, andreaamelio.ravelli@unifi.it
+- Rossella Varvara, Università di Firenze, rossella.varvara@unifi.it
 - Lorenzo Gregori, Università di Firenze, lorenzo.gregori@unifi.it
-– Daniele Radicioni, Università di Torino, daniele.radicioni@unito.it
-– Andrea Amelio Ravelli, Università di Firenze, andreaamelio.ravelli@unifi.it
-– Rossella Varvara, Università di Firenze, rossella.varvara@unifi.it
 - Maria Montefinese, Università di Padova, maria.montefinese@gmail.com
 
 ## Contacts
