@@ -1,6 +1,6 @@
 ## News
 
-**16/03/2020**     We are now online!
+**16/03/2020**: We are now online!
 
 ## Menu
 
@@ -33,6 +33,12 @@ xxx
 xxx
 
 ## Organizers
+
+- Lorenzo Gregori, Università di Firenze, lorenzo.gregori@unifi.it
+– Daniele Radicioni, Università di Torino, daniele.radicioni@unito.it
+– Andrea Amelio Ravelli, Università di Firenze, andreaamelio.ravelli@unifi.it
+– Rossella Varvara, Università di Firenze, rossella.varvara@unifi.it
+- Maria Montefinese, Università di Padova, maria.montefinese@gmail.com
 
 ## Contacts
 
