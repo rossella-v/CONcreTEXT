@@ -2,7 +2,7 @@
 
 xxx
 
-### Menu
+## Menu
 
 - [Task Description](#task-description)
 - [Data Description](#data-description)
@@ -12,28 +12,28 @@ xxx
 - [Contacts](#contacts)
 
 
-### Task Description
+## Task Description
 
 xxx
 
-### Data Description
+## Data Description
 
 ## Data Format
 
-### How to Participate
+## How to Participate
 
 xxx
 
-### Important Dates
+## Important Dates
 
 xxx
 
-### References
+## References
 
 xxx
 
-### Organizers
+## Organizers
 
-### Contacts
+## Contacts
 
 xxx
