@@ -39,9 +39,7 @@ xxx
 xxx
 
 ## References
-
-# 1 
-Valentina Bambini, Donatella Resta, and Mirko Grimaldi. A dataset of metaphors from the Italian literature: exploring psycholinguistic variables and the role of context. PloS one, 9(9):1–13, 2014.
+[1]: Valentina Bambini, Donatella Resta, and Mirko Grimaldi. A dataset of metaphors from the Italian literature: exploring psycholinguistic variables and the role of context. PloS one, 9(9):1–13, 2014.
 
 Gabriella Vigliocco, Lotte Meteyard, Mark Andrews, and Stavroula Kousta. Toward a theory of semantic representation. Language and Cognition, 1(2):219–247, 2009.
 
