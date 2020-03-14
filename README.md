@@ -68,7 +68,7 @@ Let us presently consider Italian and English languages as (*L*); in both langua
 
 Then *C<sub>t</sub>*, the concreteness of the target word *t &isin; S<sub>L</sub>* will be computed averaging the scores associated to all lexical items contained therein:
 
-&sum;<sub>t &isin; S<sub>L</sub></sub>
+<sup>&sum;C<sub>t</sub></sup>&frasl;<sub>N</sub>
 
 ## How to Participate
 
