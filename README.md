@@ -36,6 +36,14 @@ Information on conceptual concreteness impacts on many diverse tasks and differe
 Furthermore, the task will be useful to test contextualized models (such as those descending from [[16]](#16) and [[17]](#17)), that were proposed to extend traditional embeddings by also extracting context sensitive features.
 The CONcreTEXT task may be relevant also for the psycho-linguistics community, where ratings about concreteness, imageability and other features (a.o. [[8]](#8), [[9]](#9)) are largely used as control variables in many experiments. The resulting annotated dataset itself (for both the Italian and English languages) will be a resource to be exploited for future researches focused on concreteness in a more contextual, and thus ecological, setting.
 
+### Definition of concreteness
+
+Operationally, the very first issue is that it is not straightforward to define concreteness/abstractness [[18]](#18). Provided that more fine grained distinctions on abstract and concrete word meanings can be drawn, the term 'concrete' has two main interpretations: 
+- what is closer to perception (as opposed to what cannot be experienced directly through the senses);
+- what is more specific (as opposed to high-level, abstract).
+
+We are mostly interested in the first aspect, that is perceptually salient concreteness/abstractness.
+
 ## Data Description
 
 ## Data Format
