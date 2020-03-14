@@ -66,7 +66,9 @@ The baseline will be implemented by considering the concreteness scores provided
 
 Let us presently consider Italian and English languages as (*L*); in both languages, given a sentence *S<sub>L</sub>* composed of *N* words, we will compute the concreteness score of the target word *w* as a function of the average concreteness of the sentence. The underlying assumption is that concrete senses typically co-occur with concrete ones, and the same holds for abstract senses [[20]](#20).
 
-Then *C<sub>t</sub>*, the concreteness of the target word *t &isin; S<sub>L</sub>* will be computed averaging the scores associated to all lexical items contained therein: *&sum;C<sub>t</sub> / N*
+Then *C<sub>t</sub>*, the concreteness of the target word *t &isin; S<sub>L</sub>* will be computed averaging the scores associated to all lexical items contained therein: &sum;*C<sub>t</sub> / N*
+
+For terms that have no annotated concreteness score in the considered sources ([[8]](#8) and [[9]](#9)), we will employ the concreteness score of the closest term, on the basis of vector representation, for which human ratings are available in the mentioned works. To these ends, either ConceptNet Numberbatch [[21]](#21) or FastText [[22]](#22) word embeddings will be used.
 
 ## How to Participate
 
@@ -119,6 +121,8 @@ https://doi.org/10.24963/ijcai.2018/22.
 [<a name="20">20</a>] Diego Frassinelli, Daniela Naumann, Jason Utt, Im Walde, and Sabine Schulte. Contextual characteristics of concrete and abstract words. In IWCS 2017, 2017.
 
 [<a name="21">21</a>] Robert Speer, Joshua Chin, and Catherine Havasi. ConceptNet 5.5: An open multilingual graph of general knowledge. In AAAI, pages 4444–4451, 2017. Piotr Bojanowski, Edouard Grave, Armand Joulin, and Tomas Mikolov. Enriching word vectors with subword information. arXiv preprint arXiv:1607.04606, 2016.
+
+[<a name="22">22</a>] Piotr Bojanowski, Edouard Grave, Armand Joulin, and Tomas Mikolov. Enriching word vectors with subword information. arXiv preprint arXiv:1607.04606, 2016.
 
 ## Organizers
 
