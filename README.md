@@ -56,6 +56,8 @@ The dataset will be partitioned into trial and test; these will be released in d
 
 ### Data Format
 
+*TBA*
+
 ### Evaluation
 
 Participants' output will be evaluated by measuring its correlation with human ratings, through Pearson and Spearman coefficients.
@@ -72,15 +74,15 @@ For terms that have no annotated concreteness score in the considered sources ([
 
 ## How to Participate
 
-xxx
+*TBA*
 
 ## Important Dates
 
-- 29th May 2020: development and distribution of data sets for training and development
-- 4th September 2020: development and distribution of datasets for testing
-- 4th - 24th September 2020: evaluation windows and collection of participants results
-- 2nd October 2020: assessment returned to participants
-- 30th November – 3rd December 2020: [EVALITA 2020](http://www.evalita.it/) (co-located with CLiC-it 2020)
+- **29th May 2020**: development and distribution of data sets for training and development
+- **4th September 2020**: development and distribution of datasets for testing
+- **4th - 24th September 2020**: evaluation windows and collection of participants results
+- **2nd October 2020**: assessment returned to participants
+- **30th November – 3rd December 2020**: [EVALITA 2020](http://www.evalita.it/) (co-located with CLiC-it 2020)
 
 
 ## References
@@ -139,4 +141,4 @@ https://doi.org/10.24963/ijcai.2018/22.
 
 ## Contacts
 
-xxx
+*TBA*
