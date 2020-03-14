@@ -66,9 +66,7 @@ The baseline will be implemented by considering the concreteness scores provided
 
 Let us presently consider Italian and English languages as (*L*); in both languages, given a sentence *S<sub>L</sub>* composed of *N* words, we will compute the concreteness score of the target word *w* as a function of the average concreteness of the sentence. The underlying assumption is that concrete senses typically co-occur with concrete ones, and the same holds for abstract senses [[20]](#20).
 
-Then *C<sub>t</sub>*, the concreteness of the target word *t &isin; S<sub>L</sub>* will be computed averaging the scores associated to all lexical items contained therein:
-
-<sup>&sum;C<sub>t</sub></sup>&frasl;<sub>N</sub>
+Then *C<sub>t</sub>*, the concreteness of the target word *t &isin; S<sub>L</sub>* will be computed averaging the scores associated to all lexical items contained therein: &sum;C<sub>t</sub>/N
 
 ## How to Participate
 
