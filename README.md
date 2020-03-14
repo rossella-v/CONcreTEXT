@@ -24,7 +24,7 @@ Target words may be either verbs or nouns.
 
 ### Motivation and state of the art
 
-Ordinary experience suggests that semantic representation and lexical access and processing of concepts can be affected by concepts' concrete/abstract status: concrete meanings, closer to perceptual experience, are acknowledged to be more quickly and easily delivered in human communication than abstract meanings [1](#1).
+Ordinary experience suggests that semantic representation and lexical access and processing of concepts can be affected by concepts' concrete/abstract status: concrete meanings, closer to perceptual experience, are acknowledged to be more quickly and easily delivered in human communication than abstract meanings [[1](#1)].
 
 ## Data Description
 
@@ -40,7 +40,7 @@ xxx
 
 ## References
 
-#1 Valentina Bambini, Donatella Resta, and Mirko Grimaldi. A dataset of metaphors from the Italian literature: exploring psycholinguistic variables and the role of context. PloS one, 9(9):1–13, 2014.
+# 1 Valentina Bambini, Donatella Resta, and Mirko Grimaldi. A dataset of metaphors from the Italian literature: exploring psycholinguistic variables and the role of context. PloS one, 9(9):1–13, 2014.
 
 Gabriella Vigliocco, Lotte Meteyard, Mark Andrews, and Stavroula Kousta. Toward a theory of semantic representation. Language and Cognition, 1(2):219–247, 2009.
 
