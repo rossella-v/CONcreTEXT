@@ -24,7 +24,9 @@ Target words may be either verbs or nouns.
 
 ### Motivation and state of the art
 
-Ordinary experience suggests that semantic representation and lexical access and processing of concepts can be affected by concepts' concrete/abstract status: concrete meanings, closer to perceptual experience, are acknowledged to be more quickly and easily delivered in human communication than abstract meanings [[1]](#1).
+Ordinary experience suggests that semantic representation and lexical access and processing of concepts can be affected by concepts' concrete/abstract status: concrete meanings, closer to perceptual experience, are acknowledged to be more quickly and easily delivered in human communication than abstract meanings [[1]](#1). Such kind of information grasps a complex combination of experiential (e.g., sensory, motor) and strictly linguistic features, such as verbal associations arising through co-occurrence patterns and syntactic information [[2]](#2).
+These features make conceptual concreteness/abstractness a challenging though only superficially explored field, with the notable exception of some works at the intersection between Computational Linguistics and Cognitive Science, such as [[3]](#3) [[4]](#4).
+In the last few years, mounting experimental evidences have been gathered in the fields of Neuroscience and Cognitive Science on conceptual access and retrieval dynamics that posit novel issues, such as imageability associated to terms and concepts [[5]](#5), and traits contributing to inferential vs. referential lexical tasks [[6]](#6) [[7]](#7).
 
 ## Data Description
 
@@ -41,18 +43,17 @@ xxx
 ## References
 [<a name="1">1</a>] Valentina Bambini, Donatella Resta, and Mirko Grimaldi. A dataset of metaphors from the Italian literature: exploring psycholinguistic variables and the role of context. PloS one, 9(9):1–13, 2014.
 
-Gabriella Vigliocco, Lotte Meteyard, Mark Andrews, and Stavroula Kousta. Toward a theory of semantic representation. Language and Cognition, 1(2):219–247, 2009.
+[<a name="2">2</a>] Gabriella Vigliocco, Lotte Meteyard, Mark Andrews, and Stavroula Kousta. Toward a theory of semantic representation. Language and Cognition, 1(2):219–247, 2009.
 
-Felix Hill, Douwe Kiela, and Anna Korhonen. Concreteness and corpora: A theoretical and practical study. In Proceedings of the Fourth Annual Workshop on Cognitive Modeling and Computational Linguistics (CMCL), pages 75–83, 2013.
+[<a name="3">3</a>] Felix Hill, Douwe Kiela, and Anna Korhonen. Concreteness and corpora: A theoretical and practical study. In Proceedings of the Fourth Annual Workshop on Cognitive Modeling and Computational Linguistics (CMCL), pages 75–83, 2013.
 
-Felix Hill and Anna Korhonen. Learning abstract concept embeddings from multi-modal data: Since you probably can’t see what i mean. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 255–265, 2014.
+[<a name="4">4</a>] Felix Hill and Anna Korhonen. Learning abstract concept embeddings from multi-modal data: Since you probably can’t see what i mean. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 255–265, 2014.
 
-Alessandra Vergallito, Marco Alessandro Petilli, and Marco Marelli. Perceptual modality norms for 1,121 italian words: A comparison with concreteness and imageability scores and an analysis of their impact in word processing tasks.
-Behavior Research Methods, pages 1–18, 2019.
+[<a name="5">5</a>] Alessandra Vergallito, Marco Alessandro Petilli, and Marco Marelli. Perceptual modality norms for 1,121 italian words: A comparison with concreteness and imageability scores and an analysis of their impact in word processing tasks. Behavior Research Methods, pages 1–18, 2019.
 
-Diego Marconi. Lexical competence. MIT Press, 1997.
+[<a name="6">6</a>] Diego Marconi. Lexical competence. MIT Press, 1997.
 
-Francesca Garbarini, Fabrizio Calzavarini, Matteo Diano, Monica Biggio, Carola Barbero, Daniele P Radicioni, Giuliano Geminiani, Katiuscia Sacco, and Diego Marconi. Imageability effect on the functional brain activity during a naming to definition task. Neuropsychologia, 137:107275, 2020.
+[<a name="7">7</a>] Francesca Garbarini, Fabrizio Calzavarini, Matteo Diano, Monica Biggio, Carola Barbero, Daniele P Radicioni, Giuliano Geminiani, Katiuscia Sacco, and Diego Marconi. Imageability effect on the functional brain activity during a naming to definition task. Neuropsychologia, 137:107275, 2020.
 
 Marc Brysbaert, Amy Beth Warriner, and Victor Kuperman. Concreteness ratings for 40,000 generally known english word lemmas. BEHAV RES METH, 46(3):904–911, 2014.
 
