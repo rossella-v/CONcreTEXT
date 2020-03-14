@@ -34,6 +34,7 @@ The CONcreTEXT task is aimed at investigating how the concreteness information a
 
 Information on conceptual concreteness impacts on many diverse tasks and different fields. As mentioned, this task addresses from a novel perspective an old problem such as word sense disambiguation, even if  sense identification and grounding are intentionally left unspecified (that is, participants are not requested to specify what does the target mean by providing a WordNet/BabelNet synset identifier). Additionally, the concrete/abstract nature of senses may be relevant to further NLP tasks, such as the semantic processing of figurative language [[10]](#10) [[11]](#11) [[12]](#12), the automatic translation and simplification [[13]](#13), the characterisation of web queries with difficulty scores [[14]](#14), the processing of social tagging information [[15]](#15).
 Furthermore, the task will be useful to test contextualized models (such as those descending from [[16]](#16) and [[17]](#17)), that were proposed to extend traditional embeddings by also extracting context sensitive features.
+
 The CONcreTEXT task may be relevant also for the psycho-linguistics community, where ratings about concreteness, imageability and other features (a.o. [[8]](#8), [[9]](#9)) are largely used as control variables in many experiments. The resulting annotated dataset itself (for both the Italian and English languages) will be a resource to be exploited for future researches focused on concreteness in a more contextual, and thus ecological, setting.
 
 ### Definition of concreteness
@@ -45,6 +46,8 @@ Operationally, the very first issue is that it is not straightforward to define 
 We are mostly interested in the first aspect, that is perceptually salient concreteness/abstractness.
 
 ## Data Description
+
+The dataset used for this task will be taken from the English-Italian parallel section of *The Human Instruction Dataset* [[19]](#19), derived from WikiHow instructions. The dataset is freely available on [Kaggle](https://www.kaggle.com/paolop/human-instructions-multilingual-wikihow). All such documents have been anonymized beforehand, so that downloaded data present no privacy nor data sensitivity issues.
 
 ## Data Format
 
