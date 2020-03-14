@@ -28,6 +28,14 @@ Ordinary experience suggests that semantic representation and lexical access and
 These features make conceptual concreteness/abstractness a challenging though only superficially explored field, with the notable exception of some works at the intersection between Computational Linguistics and Cognitive Science, such as [[3]](#3) [[4]](#4).
 In the last few years, mounting experimental evidences have been gathered in the fields of Neuroscience and Cognitive Science on conceptual access and retrieval dynamics that posit novel issues, such as imageability associated to terms and concepts [[5]](#5), and traits contributing to inferential vs. referential lexical tasks [[6]](#6) [[7]](#7).
 
+The CONcreTEXT task is aimed at investigating how the concreteness information affects sense selection: different from past research, we are interested in assessing the concreteness of terms in context rather than in isolation [[8]](#8) [[9]](#9). The concreteness score is assumed to be a property of word meanings rather than a property of word forms; thus, scoring the concreteness of a term in context implicitly requires to individuate its underlying sense, by handling lexical phenomena such as polysemy and homonymy.
+
+### Reference scientific communities
+
+Information on conceptual concreteness impacts on many diverse tasks and different fields. As mentioned, this task addresses from a novel perspective an old problem such as word sense disambiguation, even if  sense identification and grounding are intentionally left unspecified (that is, participants are not requested to specify what does the target mean by providing a WordNet/BabelNet synset identifier). Additionally, the concrete/abstract nature of senses may be relevant to further NLP tasks, such as the semantic processing of figurative language [[10]](#10) [[11]](#11) [[12]](#12), the automatic translation and simplification [[13]](#13), the characterisation of web queries with difficulty scores [[14]](#14), the processing of social tagging information [[15]](#15).
+Furthermore, the task will be useful to test contextualized models (such as those descending from [[16]](#16) and [[17]](#17)), that were proposed to extend traditional embeddings by also extracting context sensitive features.
+The CONcreTEXT task may be relevant also for the psycho-linguistics community, where ratings about concreteness, imageability and other features (a.o. [[8]](#8), [[9]](#9)) are largely used as control variables in many experiments. The resulting annotated dataset itself (for both the Italian and English languages) will be a resource to be exploited for future researches focused on concreteness in a more contextual, and thus ecological, setting.
+
 ## Data Description
 
 ## Data Format
@@ -55,34 +63,34 @@ xxx
 
 [<a name="7">7</a>] Francesca Garbarini, Fabrizio Calzavarini, Matteo Diano, Monica Biggio, Carola Barbero, Daniele P Radicioni, Giuliano Geminiani, Katiuscia Sacco, and Diego Marconi. Imageability effect on the functional brain activity during a naming to definition task. Neuropsychologia, 137:107275, 2020.
 
-Marc Brysbaert, Amy Beth Warriner, and Victor Kuperman. Concreteness ratings for 40,000 generally known english word lemmas. BEHAV RES METH, 46(3):904–911, 2014.
+[<a name="8">8</a>] Marc Brysbaert, Amy Beth Warriner, and Victor Kuperman. Concreteness ratings for 40,000 generally known english word lemmas. BEHAV RES METH, 46(3):904–911, 2014.
 
-Maria Montefinese, Ettore Ambrosini, Beth Fairfield, and Nicola Mammarella. The adaptation of the affective norms for english words (anew) for italian. Behavior research methods, 46(3):887–903, 2014.
+[<a name="9">9</a>] Maria Montefinese, Ettore Ambrosini, Beth Fairfield, and Nicola Mammarella. The adaptation of the affective norms for english words (anew) for italian. Behavior research methods, 46(3):887–903, 2014.
 
-Julia Birke and Anoop Sarkar. A clustering approach for nearly unsupervised recognition of nonliteral language. In Procs. of the 11th conference of EACL, 2006.
+[<a name="10">10</a>] Julia Birke and Anoop Sarkar. A clustering approach for nearly unsupervised recognition of nonliteral language. In Procs. of the 11th conference of EACL, 2006.
 
-Yair Neuman, Dan Assaf, Yohai Cohen, Mark Last, Shlomo Argamon, Newton Howard, and Ophir Frieder. Metaphor identification in large texts corpora. PloS one, 8(4):e62343, 2013.
+[<a name="11">11</a>] Yair Neuman, Dan Assaf, Yohai Cohen, Mark Last, Shlomo Argamon, Newton Howard, and Ophir Frieder. Metaphor identification in large texts corpora. PloS one, 8(4):e62343, 2013.
 
-Enrico Mensa, Aureliano Porporato, and Daniele P. Radicioni. Grasping metaphors: Lexical semantics in metaphor analysis. In The Semantic Web: ESWC 2018 Satellite Events, pages 192–195, Cham, 2018. Springer. ISBN 978-3-319-98192-5.
+[<a name="12">12</a>] Enrico Mensa, Aureliano Porporato, and Daniele P. Radicioni. Grasping metaphors: Lexical semantics in metaphor analysis. In The Semantic Web: ESWC 2018 Satellite Events, pages 192–195, Cham, 2018. Springer. ISBN 978-3-319-98192-5.
 
-Zhemin Zhu, Delphine Bernhard, and Iryna Gurevych. A monolingual treebased translation model for sentence simplification. In Procs. of the 23rd international conference on computational linguistics, pages 1353–1361. ACL, 2010.
+[<a name="13">13</a>] Zhemin Zhu, Delphine Bernhard, and Iryna Gurevych. A monolingual treebased translation model for sentence simplification. In Procs. of the 23rd international conference on computational linguistics, pages 1353–1361. ACL, 2010.
 
-Xing Xing, Yi Zhang, and Mei Han. Query difficulty prediction for contextual image retrieval. In European Conference on Information Retrieval, pages 581–585, 2010.
+[<a name="14">14</a>] Xing Xing, Yi Zhang, and Mei Han. Query difficulty prediction for contextual image retrieval. In European Conference on Information Retrieval, pages 581–585, 2010.
 
-Dominik Benz, Christian Körner, Andreas Hotho, Gerd Stumme, and Markus Strohmaier. One tag to bind them all: Measuring term abstractness in social metadata. In Procs. of ESWC, pages 360–374. Springer, 2011.
+[<a name="15">15</a>] Dominik Benz, Christian Körner, Andreas Hotho, Gerd Stumme, and Markus Strohmaier. One tag to bind them all: Measuring term abstractness in social metadata. In Procs. of ESWC, pages 360–374. Springer, 2011.
 
-Matthew E Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, and Luke Zettlemoyer. Deep contextualized word representations. In Proceedings of NAACL-HLT, pages 2227–2237, 2018.
+[<a name="16">16</a>] Matthew E Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, and Luke Zettlemoyer. Deep contextualized word representations. In Proceedings of NAACL-HLT, pages 2227–2237, 2018.
 
-Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 4171–4186, 2019.
+[<a name="17">17</a>] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 4171–4186, 2019.
 
-Rumen Iliev and Robert Axelrod. The paradox of abstraction: Precision versus concreteness. Journal of psycholinguistic research, 46(3):715–729, 2017.
+[<a name="18">18</a>] Rumen Iliev and Robert Axelrod. The paradox of abstraction: Precision versus concreteness. Journal of psycholinguistic research, 46(3):715–729, 2017.
 
-Paula Chocron and Paolo Pareti. Vocabulary alignment for collaborative agents: a study with real-world multilingual how-to instructions. In Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence, IJCAI-18, pages 159–165. International Joint Conferences on Artificial Intelligence Organization, 7 2018. doi: 10.24963/ijcai.2018/22. URL
+[<a name="19">19</a>] Paula Chocron and Paolo Pareti. Vocabulary alignment for collaborative agents: a study with real-world multilingual how-to instructions. In Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence, IJCAI-18, pages 159–165. International Joint Conferences on Artificial Intelligence Organization, 7 2018. doi: 10.24963/ijcai.2018/22. URL
 https://doi.org/10.24963/ijcai.2018/22.
 
-Diego Frassinelli, Daniela Naumann, Jason Utt, Im Walde, and Sabine Schulte. Contextual characteristics of concrete and abstract words. In IWCS 2017, 2017.
+[<a name="20">20</a>] Diego Frassinelli, Daniela Naumann, Jason Utt, Im Walde, and Sabine Schulte. Contextual characteristics of concrete and abstract words. In IWCS 2017, 2017.
 
-Robert Speer, Joshua Chin, and Catherine Havasi. ConceptNet 5.5: An open multilingual graph of general knowledge. In AAAI, pages 4444–4451, 2017. Piotr Bojanowski, Edouard Grave, Armand Joulin, and Tomas Mikolov. Enriching word vectors with subword information. arXiv preprint arXiv:1607.04606, 2016.
+[<a name="21">21</a>] Robert Speer, Joshua Chin, and Catherine Havasi. ConceptNet 5.5: An open multilingual graph of general knowledge. In AAAI, pages 4444–4451, 2017. Piotr Bojanowski, Edouard Grave, Armand Joulin, and Tomas Mikolov. Enriching word vectors with subword information. arXiv preprint arXiv:1607.04606, 2016.
 
 ## Organizers
 
