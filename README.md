@@ -76,7 +76,12 @@ xxx
 
 ## Important Dates
 
-xxx
+- 29th May 2020: development and distribution of data sets for training and development
+- 4th September 2020: development and distribution of datasets for testing
+- 4th - 24th September 2020: evaluation windows and collection of participants results
+- 2nd October 2020: assessment returned to participants
+- 30th November – 3rd December 2020: [EVALITA 2020](http://www.evalita.it/) (co-located with CLiC-it 2020)
+
 
 ## References
 [<a name="1">1</a>] Valentina Bambini, Donatella Resta, and Mirko Grimaldi. A dataset of metaphors from the Italian literature: exploring psycholinguistic variables and the role of context. PloS one, 9(9):1–13, 2014.
