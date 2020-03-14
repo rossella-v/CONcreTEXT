@@ -49,6 +49,11 @@ We are mostly interested in the first aspect, that is perceptually salient concr
 
 The dataset used for this task will be taken from the English-Italian parallel section of *The Human Instruction Dataset* [[19]](#19), derived from WikiHow instructions. The dataset is freely available on [Kaggle](https://www.kaggle.com/paolop/human-instructions-multilingual-wikihow). All such documents have been anonymized beforehand, so that downloaded data present no privacy nor data sensitivity issues.
 
+The dataset will be composed by overall 1,000 sentences, and arranged as follows: 500 Italian sentences plus 500 English sentences. For each sentence a target term will be selected, and multiple annotators will be asked to provide it with a concreteness score (1-5 scale). 
+After the annotation, inter-rater agreement will be computed and items featured by reduced Kappa (<.7) will be dropped, so to deliver fully reliable data. Human ratings will be averaged, and the resulting figures will be used as gold standard.
+
+The dataset will be partitioned into trial and test; these will be released in due time (29th May, 2020 and 4th September, 2020, respectively). We are now extracting the sentences to be annotated.
+
 ## Data Format
 
 ## How to Participate
