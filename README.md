@@ -54,7 +54,19 @@ After the annotation, inter-rater agreement will be computed and items featured 
 
 The dataset will be partitioned into trial and test; these will be released in due time (29th May, 2020 and 4th September, 2020, respectively). We are now extracting the sentences to be annotated.
 
-## Data Format
+### Data Format
+
+### Evaluation
+
+Participants' output will be evaluated by measuring its correlation with human ratings, through Pearson and Spearman coefficients.
+
+### Baseline
+
+The baseline will be implemented by considering the concreteness scores provided in literature: [[8]](#8) for English and [[9]](#9) for Italian. 
+
+Let us presently consider Italian and English languages as (*l*); in both languages, given a sentence $S_l$ composed of $N$ words, we will compute the concreteness score of the target word $w$ as a function of the average concreteness of the sentence. The underlying assumption is that concrete senses typically co-occur with concrete ones, and the same holds for abstract senses [[20]](#20).
+
+Then $\mathfrak{C}_{t}$, the concreteness of the target word $t \in S_{l}$ will be computed averaging the scores associated to all lexical items contained therein:
 
 ## How to Participate
 
