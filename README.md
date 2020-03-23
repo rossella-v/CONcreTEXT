@@ -14,13 +14,15 @@
 
 ## Task Description
 
-The task CONcreTEXT (so dubbed after CONcreteness in conTEXT) focuses on automatic concreteness (and conversely, abstractness) recognition. Given a sentence along with a target word, we ask participants to propose a system able to assess the concreteness of the target word according to a [1-5] concreteness scale, where 1 stands for fully abstract (e.g., 'idempotence') and 5 for maximally concrete (e.g., 'car'). 
+The task CONcreTEXT (so dubbed after CONcreteness in conTEXT) focuses on automatic concreteness (and conversely, abstractness) recognition. Given a sentence along with a target word, we ask participants to propose a system able to assess the concreteness of the target word according to a [1-7] concreteness scale, where 1 stands for fully abstract (e.g., 'idempotence') and 5 for maximally concrete (e.g., 'car'). 
 
 The concreteness score being assigned to the word must be evaluated in context: the word should not be considered in isolation, but as part of the given sentence. For example, systems are expected to assign different scores to the verb 'COVER' in the next two sentences:
 - *COVER the pot and bring the water to a vigorous boil*;
 - *Your fees and tuition help to COVER the costs of providing these services*.
 
 Target words may be either verbs or nouns.
+
+We invite participants to exploit all possible strategies to solve the task, including (but not limited to) knowledge bases, external training data, word embeddings, etc
 
 ### Motivation and state of the art
 
@@ -49,7 +51,7 @@ We are mostly interested in the first aspect, that is perceptually salient concr
 
 The dataset used for this task will be taken from the English-Italian parallel section of *The Human Instruction Dataset* [[19]](#19), derived from WikiHow instructions. The dataset is freely available on [Kaggle](https://www.kaggle.com/paolop/human-instructions-multilingual-wikihow). All such documents have been anonymized beforehand, so that downloaded data present no privacy nor data sensitivity issues.
 
-The dataset will be composed by overall 1,000 sentences, and arranged as follows: 500 Italian sentences plus 500 English sentences. For each sentence a target term will be selected, and multiple annotators will be asked to provide it with a concreteness score (1-5 scale). 
+The dataset will be composed by overall 1,000 sentences, and arranged as follows: 500 Italian sentences plus 500 English sentences. For each sentence a target term will be selected, and multiple annotators will be asked to provide it with a concreteness score (1-7 scale). 
 After the annotation, inter-rater agreement will be computed and items featured by reduced Kappa (<.7) will be dropped, so to deliver fully reliable data. Human ratings will be averaged, and the resulting figures will be used as gold standard.
 
 The dataset will be partitioned into trial and test; these will be released in due time (29th May, 2020 and 4th September, 2020, respectively). We are now extracting the sentences to be annotated.
