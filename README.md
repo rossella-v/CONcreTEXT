@@ -14,7 +14,7 @@
 
 ## Task Description
 
-The task CONcreTEXT (so dubbed after CONcreteness in conTEXT) focuses on automatic concreteness (and conversely, abstractness) recognition. Given a sentence along with a target word, we ask participants to propose a system able to assess the concreteness of the target word according to a [1-7] concreteness scale, where 1 stands for fully abstract (e.g., 'idempotence') and 5 for maximally concrete (e.g., 'car'). 
+The task CONcreTEXT (so dubbed after CONcreteness in conTEXT) focuses on automatic concreteness (and conversely, abstractness) recognition. Given a sentence along with a target word, we ask participants to propose a system able to assess the concreteness of the target word according to a [1-7] concreteness scale, where 1 stands for fully abstract (e.g., 'idempotence') and 7 for maximally concrete (e.g., 'car'). 
 
 The concreteness score being assigned to the word must be evaluated in context: the word should not be considered in isolation, but as part of the given sentence. For example, systems are expected to assign different scores to the verb 'COVER' in the next two sentences:
 - *COVER the pot and bring the water to a vigorous boil*;
