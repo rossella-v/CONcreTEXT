@@ -22,7 +22,7 @@ The concreteness score being assigned to the word must be evaluated in context: 
 
 Target words may be either verbs or nouns.
 
-We invite participants to exploit all possible strategies to solve the task, including (but not limited to) knowledge bases, external training data, word embeddings, etc
+We invite participants to exploit all possible strategies to solve the task, including (but not limited to) knowledge bases, external training data, word embeddings, etc.
 
 ### Motivation and state of the art
 
